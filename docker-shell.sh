@@ -4,7 +4,7 @@ set -e
 
 export BASE_DIR=$(pwd)
 export SECRETS_DIR=$(pwd)/../secrets/
-export GCS_BUCKET_NAME="data-versioning"
+export GCS_BUCKET_NAME="data-versioning2"
 export GCP_PROJECT="data-versioning"
 export GCP_ZONE="us-central1-a"
 export GOOGLE_APPLICATION_CREDENTIALS="/secrets/data-service-account.json"
